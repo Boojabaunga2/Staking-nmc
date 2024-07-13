@@ -10,7 +10,7 @@ import { ethers } from "ethers";
 import { toEther } from "thirdweb/utils"
 
 
-export default function stakePage() {
+export default function StakePage() {
  const [amountToStake, setAmountToStake] = useState("1")
  const [stakedTokenAmount,setStakedTokenAmount] = useState("loading..")
  const [rewardTokenAmount, setRewardTokenAmount] = useState("loading..")
